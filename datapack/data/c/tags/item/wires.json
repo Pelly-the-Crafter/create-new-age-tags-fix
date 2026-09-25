@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#c:wires/copper",
+    "#c:wires/overcharged_iron",
+    "#c:wires/overcharged_gold",
+    "#c:wires/overcharged_diamond"
+  ]
+}

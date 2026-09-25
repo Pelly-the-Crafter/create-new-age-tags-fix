@@ -1,0 +1,39 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+issueTrackerURL = "https://github.com/Pelly-the-Crafter/create-new-age-tags-fix/issues"
+
+[[mods]]
+modId = "create_new_age_tags_fix"
+version = "1.0.0"
+displayName = "Create: New Age Tags Fix"
+authors = "Pelly-the-Crafter"
+displayURL = "https://github.com/Pelly-the-Crafter/create-new-age-tags-fix"
+description = '''
+Adds the common c: tags Create: New Age is missing: thorium ore counts as an ore, thorium as a raw material, and the
+overcharged ingots, diamond, sheets and wires (plus copper wire) get their ingot, gem, plate and wire tags.
+Data only; it only needs to be on the server (or in singleplayer).
+'''
+# Data only: clients and servers don't need to match
+displayTest = "IGNORE_ALL_VERSION"
+
+[[dependencies.create_new_age_tags_fix]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.create_new_age_tags_fix]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.21.2)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.create_new_age_tags_fix]]
+modId = "create_new_age"
+type = "optional"
+versionRange = "[1.2,)"
+ordering = "AFTER"
+side = "BOTH"

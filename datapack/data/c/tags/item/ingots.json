@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#c:ingots/overcharged_iron",
+    "#c:ingots/overcharged_gold"
+  ]
+}
