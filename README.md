@@ -75,8 +75,8 @@ you don't need to do this: VeinMiner picks the tags up when it starts.
 
 Tested on a dedicated server: without the fix, thorium ore and the items above have no `c:` tags at all. With the
 datapack, every tag in the table is there (checked with `/neoforge tags`), the reload logs no errors from it, and after
-`/veinminer reload` (VeinMiner 2.11.2) a whole thorium vein breaks at once. The jar carries exactly the same files as
-the datapack.
+`/veinminer reload` (VeinMiner 2.11.2) a whole thorium vein breaks at once. The jar was tested on its own too (datapack
+removed, server restarted): it loads cleanly and gives the same tags.
 
 ## Good to know
 
